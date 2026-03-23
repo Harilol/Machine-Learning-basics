@@ -31,7 +31,7 @@ output : array([0. , 0.25, 0.5 , 0.75, 1.  ])
 
 #0 IS THE START OF THE SEQUENCE,1 IS THE END OF THE SEQUENCE,5 IS THE NUMBER OF SAMPLES TO GENERATE.
 
-# ATTRIBUTES 
+#ATTRIBUTES 
 print(array1.shape)    output : (3,)
 print(array1.ndim)     output : 1
 print(array1.dtype)    output : int64
@@ -50,7 +50,7 @@ output : array([[0],
 print(array[0])      #RETURNS VALUES IN THOSE INDEXS 
 print(array[1][0])
 
-# Slicing
+#Slicing
 print(array_range[1:5])   #RETURNS FROM INDEX 1 TO 5
 
 # Mathematical operations
@@ -61,19 +61,19 @@ print(a + b)
 print(a * b)
 print(np.sqrt(a))  #SQUARE ROOT OF a
 
-# Aggregations
+#Aggregations
 print(np.sum(a))   #FINDS ADDITION OF ALL VALUES IN a
 print(np.mean(a))  #FINDS MEAN OF ALL VALUES IN a
 print(np.max(a))   #FINDS MAXIMUM VALUE IN a
 print(np.min(a))   #FINDS MINIMUM VALUE IN a
 
-# Random numbers
+#Random numbers
 rand = np.random.rand(3)               #GENERATES RANDOM NUMBERS 
 rand_int = np.random.randint(1, 10, 5)
 
-# Boolean operations
+#Boolean operations
 arr = np.array([1, 2, 3, 4])
 print(arr > 2)
 
-# Filtering
+#Filtering
 print(arr[arr > 2])
