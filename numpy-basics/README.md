@@ -1,3 +1,5 @@
+# This repository contains basic NumPy operations with simple examples for beginners.
+
 # IMPORTING NUMPY
 Import numpy as np # np IS USED AS ALIAS FOR NUMPY 
 
